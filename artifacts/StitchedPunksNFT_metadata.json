@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "initialOwner",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -693,12 +687,6 @@
 				"balanceOf(address)": {
 					"details": "Returns the number of tokens in ``owner``'s account."
 				},
-				"constructor": {
-					"details": "Конструктор требует initialOwner для Ownable (в OpenZeppelin v5.0+)"
-				},
-				"contractURI()": {
-					"details": "Метаданные уровня контракта (для OpenSea)"
-				},
 				"getApproved(uint256)": {
 					"details": "Returns the account approved for `tokenId` token. Requirements: - `tokenId` must exist."
 				},
@@ -733,7 +721,7 @@
 					"details": "Returns the token collection symbol."
 				},
 				"tokenURI(uint256)": {
-					"details": "Возвращает URI токена с добавлением \".json\""
+					"details": "Returns the Uniform Resource Identifier (URI) for `tokenId` token."
 				},
 				"transferFrom(address,address,uint256)": {
 					"details": "Transfers `tokenId` token from `from` to `to`. WARNING: Note that the caller is responsible to confirm that the recipient is capable of receiving ERC-721 or else they may be permanently lost. Usage of {safeTransferFrom} prevents loss, though the caller must understand this adds an external call which potentially creates a reentrancy vulnerability. Requirements: - `from` cannot be the zero address. - `to` cannot be the zero address. - `tokenId` token must be owned by `from`. - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}. Emits a {Transfer} event."
@@ -887,11 +875,11 @@
 			]
 		},
 		"contracts/Pnkst.sol": {
-			"keccak256": "0xa94c281dc344d9735419c836dbc0afa89aeea5cb500026b29c5314a4b05c5af7",
+			"keccak256": "0x008b6eb4213e6f1b07de3a953ee0ae6ec1e9b312dbf67a188bf793569d0cf39a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63d9c916aa21f1b3dce16a9612aee5576d56457419b7d88b547d5b985877a2fc",
-				"dweb:/ipfs/QmPn5abprjypamtXeH69w46WpeMmLzNAtkkMLAcjR1txw5"
+				"bzz-raw://06538c6876763967d9943513a6b558383553cb013b77e0d355b58a65cbecd5ac",
+				"dweb:/ipfs/QmdcTVwpY1mKRoze4mjsWyQCQ6RW9r4ouFdfVshgVhFeVH"
 			]
 		}
 	},
