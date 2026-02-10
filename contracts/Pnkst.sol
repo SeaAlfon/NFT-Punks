@@ -2,7 +2,7 @@
 
 // 2021-07-20 - Release Version
 
-pragma solidity 0.7.6;
+pragma solidity 0.8.20;
 
 // @openzeppelin/contracts/utils/Context.sol introduces execution context to replace msg.sender with _msgSender()
 // implement admin role
